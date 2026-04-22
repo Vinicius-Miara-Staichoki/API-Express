@@ -8,6 +8,7 @@ const CarSchema = new mongoose.Schema(
         color:String,
         price:Number,
         available:String,
+        plate:String,
       
 
     },
@@ -15,6 +16,8 @@ const CarSchema = new mongoose.Schema(
 );
 
 export default mongoose.model("Car",CarSchema);
+
+
 
 
 
